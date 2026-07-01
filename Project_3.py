@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 
 SEARCH_EXTENSIONS = ['.csv', '.xlsx']
 REQUIRED_COLUMNS = ['CustomerID', 'InvoiceNo', 'Quantity', 'UnitPrice']
-DEFAULT_DATAFILES = [Path(r'c:\Users\NEW LAPTOP CITY\.vscode\Internship Projects\Project 3\Online Retail.xlsx'), Path('Online Retail.xlsx')]
+DEFAULT_DATAFILES = [Path(r'c:Online Retail.xlsx'), Path('Online Retail.xlsx')]
 
 
 def find_dataset(candidate_path: Path | None = None) -> Path:
